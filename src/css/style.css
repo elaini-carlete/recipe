@@ -1,0 +1,104 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+main{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 650px;
+    border-radius: 20px;
+    margin: 50px 20px;
+}
+
+main .omelette-img{
+    width: 100%;
+    height: 100%;
+    padding: 30px 30px 0px 30px;
+}
+
+main .recipe{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main .time .title-time{
+    margin-bottom: 10px;
+}
+
+main .title-recipe,
+main .ingredients,
+main .instructions,
+main .nutrition{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+main .title-recipe{
+    font-size: 35px;
+}
+
+main .time{
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+main .time .title-time,
+main .time .minutes li{
+    color: hsl(332, 51%, 32%);
+    padding-bottom: 5px;
+}
+
+main .time .minutes,
+main .ingredients-list,
+main .instructions-list{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+main .ingredients,
+main .ingredients-list,
+main .instructions,
+main .instructions-list,
+main .nutrition,
+main .nutrition-table .value{
+    color: hsl(14, 45%, 36%);
+}
+
+main .nutrition-table{
+    border-collapse: collapse;
+}
+
+main .nutrition-table tr:not(:last-child){
+    border-bottom: 1px solid  hsl(30, 18%, 87%);
+}
+
+main .nutrition-table td{
+    padding: 10px 0px;
+    padding-left: 30px;
+}
+
+main .info-recipe,
+main .time .minutes .minutes-recipe,
+main .ingredients-list .ingredient,
+main .instructions-list .instruction,
+main .nutrition-info,
+main .nutrition-table .nutrition-name{
+    color: hsl(30, 10%, 34%);
+}
+
+main .title-recipe,
+main .time .minutes .info-minutes,
+main .instructions-list .instruction-name{
+    color: hsl(24, 5%, 18%);
+}
